@@ -1,0 +1,35 @@
+{
+  "name": "warn-everyone",
+  "version": "1.0.0",
+  "description": "WARN EVERYONE AHAHAHAHAHA",
+  "author": "SwanX1 <karliscern@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "main": "build/index.js",
+  "esnext": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.0.1",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "logerian": "^1.0.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/fs-extra": "^9.0.12",
+    "@types/node": "^16.4.13",
+    "typescript": "next"
+  },
+  "engines": {
+    "node": "^16.4.13"
+  }
+}
